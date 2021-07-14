@@ -17,7 +17,7 @@
       <button class="btn primary" type="submit" :disabled="isDisabled">Добавить</button>
     </form>
 
-    <div class="card card-w70">в
+    <div class="card card-w70">
       <template v-if="resumeData.length !== 0">
         <div v-for="item in resumeData" :key="item.id">
           <resume-title :title="item.content" v-if="item.type === 'title'"></resume-title>
