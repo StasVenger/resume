@@ -1,6 +1,6 @@
 <template>
+  <div id="12345678987654"></div>
   <div class="container column">
-    <div id="12345678987654">Тест</div>
     <form class="card card-w30" @submit.prevent="addNewContent">
       <div class="form-control">
         <label for="type">Тип блок</label>
